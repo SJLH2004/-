@@ -1,0 +1,1350 @@
+object AboutForm: TAboutForm
+  Left = 485
+  Height = 370
+  Top = 421
+  Width = 616
+  Caption = '关于'
+  ClientHeight = 370
+  ClientWidth = 616
+  Constraints.MaxWidth = 616
+  Constraints.MinHeight = 176
+  Constraints.MinWidth = 616
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.8.2.0'
+  object Image1: TImage
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 15
+    Height = 81
+    Top = 15
+    Width = 81
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 15
+    Center = True
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B47726170686963191A000089504E47
+      0D0A1A0A0000000D4948445200000051000000510806000000AA8F4A36000000
+      097048597300000B1200000B1201D2DD7EFC000019CB49444154789CDD9D79B8
+      15C5D5EE7F55D5BDE7BDCFC08CC86106C530381BAFFA999828220826A28843E4
+      D37B9390A8C46842F219F57E31DE9B68D4A8718C438C20281AE3758E8228CEA2
+      328F8222329E798F3D54DD3F7AEFC3613E9382AEE769CE79FA547757BDFDAE55
+      ABD65AD508630C5A6BB4D6002044707CD5620C40F0608128FEDABC23660F3FF7
+      8318949088224EC298FDD617D1EC087A06BA1DD7968EAF5C2C8055AB56F1D65B
+      6F614989A92C8741FDC1F73BE60925566B0D06812525960D4AFAF8BE219B87C6
+      34140AA07508213AA34D39A1500A8834DDC7981CB1680346D7A264354AB9D836
+      28094216996C2C0C06E8A0CEEF469442D6D6F19D5E7DE8D6A307C69800C4975F
+      7E992953A6048D860C80CBFE13F285F6ABB531C1218524121648E993CEFA6CDD
+      063575291CA70AA90E27121E413C368470B88AB05D8EB2C2582A4CF12517C503
+      0A683F8FA116DFFF14219621E54748F1114AAD43CA345205FCD446D13A76B76C
+      3CB1287CF031FF1E7F3EDD7AF4406B1D7432140A21A5C402FC44022251A0ADB6
+      51047DD71A6C4B128908F2799F759FC3671B1278DEC994A74EA56BD7E3E854F1
+      2D62511BAB8895D1A08B5AB9AB62868178F008D113638662CCE918035A17D07A
+      215ABF89E145A49C4BC8CA15FBAF086C56BBC114C6602211C2F13896B5FDFD5A
+      00A5C9C5077CED6F67505BC4F7C1568A64C2505BA779EF23D8B07938E5C973E9
+      DFE70774EF3A806844600C789EC1F37D3CAFA99FC581EFEDED99E2BFA6A99594
+      21A43C0A380AAD7F8EEFAFC4716721C52CA45C8294608C2CB66E3398C2188C31
+      F85AEF008FB5E74B5A29018304A984A2A1D1E3C539B0FE8B13E8DFE7679C72C2
+      E9549627F07C701C4336EF0112814008B577CC761D4BB37F03D9CE348D1016B6
+      3D04CCEFF0F56518F334C6DC01BC5F6CAD8A6D3B6C12EA18107D1FA21185523E
+      F3DEF658B4742483075EC584B1E7908C4B720E34667C64D12F90A2E35E5E20A5
+      993A609B3101A0529603170113D1E61F08FE8410CB8BD7483AC85EB66F3081DA
+      0BCACB24EBD6FB3CF35292F2D4554C1C7F199D2ACBC8640D0D190F29144AAA8E
+      E8700B45168FD24C1D428AC918331663FE8410B701050256B67B266F3B88DA80
+      928278CCF0E25C9F0F3E3E8951DFF93323BF7538D91CD437782865A16447B3AE
+      3522D83E460F213A03FF1763CE002E47880FE900F56EDB004BEAABB5CF9D0F4A
+      601A532EBE9644DCA6AEDE434A8552FB13BCDD89458999429C00CCC198AB10E2
+      3E02D60ADAA8DEAD1FA8EF4322AEA8AEF5B9F791320E1D7427678D9E442617D8
+      BD030FBCE65262A6079421C4BDC0A1C02F08006E939D6CDD803D0FCA52924F3E
+      F3B9F7915E9CF1BD47F88F6FFF07B5751EE22BB77BED118BED2A7C05D013B804
+      68A40D76B2E520FA3EA492924F3ED5FCF5A1414C3AEB718E1C318CEA5A1FEB80
+      66DF9EA434F178C00420059C0334D04A46CA7D37017C0DF19862ED7ACD1D0FF4
+      65D20F9EE488E1C3A8A9F5B0D4D7857DBB93927ABBC069C02C20C976D56E91EC
+      BBA1D6100E49EA1A7CEEF97B777E386626470E1F4A6D9DB7C3DAE7EB2D360123
+      4F051E2050E9E651A2BDCADE4134069412080CB7DD17E7F8A3EFE7C4638F0A18
+      F88D01B024A509E787C04D0476B104E65E65DF20266292FB1E3574E97403E34E
+      1BFD0D63E0CEA20854FB72603201A8FBD4D6DD37100413495952F2EFD77D3EDD
+      703EFF39E9E7A4337EB0D6FDC64AC9466AE01660180123F70AE4EEFFA80D84C3
+      820D9B35B39F1DCCC5136E241C92F8BE688A897F73A518CB2305DC4510822B9D
+      DFADEC1E446304211BFEF184C5D1237FCF61437A91C9F848D9E219EB6B2E255F
+      F1DB04AAADD90B1B77FD83AF219990BCFD81E18BCD6773D6E8F14104E66BE348
+      7794947CC569C000F6A2D6BB9E544A90CD699E7ABE33A3BF7B15A984C2F3C47E
+      C900B6458C4109816C7F7F4B6A5D0EFCA6D9B95D6457109371C19BEF1A04E773
+      E2B123694C6B943AB0D5D814D3119E87F07DFC6C16ED38C1E0DA97CD2C457826
+      0187B3DDEDD941760647D098363C3FA73BA79E7C29A110E8FD97536DB11803AE
+      0BB902A6A6962313E51CAC6C74368B92B2BD406A20044CA5454C544AB078B9C1
+      E8711C3D7208D99C3EE06DA131E0FB28C785CD9B39BDEB41BC71D14F78ED9CC9
+      1C9128C34F37067191B6035962E3586008BB61E38E204AA971DC04C71E7E0EC9
+      84C4F34DEBD21FFB498C01C785C634A2AE8170384CDFCE5D786AC28F1899A8C0
+      6F6CC06A3B90A538630A98B8BB067287DF7D1F42F6B18C1C762C0527C817B766
+      20C543004A887D1C3230FE6D6548B3E74982FBD8B138CFBFFB1653EFBA1D8083
+      2B2A79F6DC8B3922598ED7D880526D06B284C3048282029F66AADD7CF966D01A
+      060D1A4D8FAE110A4EEB57275A83EF631C173F970BF2C83B8B10206550B9108E
+      20A331B4D12DCF711B13B43506B48FD2E03734406D1D7E5D2D781EB7DE7327B5
+      DBB671EBD4ABE8515EC13FCF9DCCD8990FF261632D32910CEA8E5A377B97C266
+      03819380178BE77CD80E62693AEFC2D0212761DB90CB0B5A1AE52ADA25E1B898
+      749A1E5698D3860C276CA95D1317068C14D8219B957535BCFCF93A64AAAC7540
+      6A0D8E83727DFCAD5B39BEAA1FC3070FC7CB6690F90296EB515D53C3E2356BF8
+      F6B061F42AAFE099732E66ECAC8759906B4086236D992F7D02BC461180B81313
+      83A59C211A19C1E07E03713D10B2E5AFCA00AE8FC8E5101B3773E7253F63FC91
+      C7ECF332C775B9E4E9C77864E512ACCA4ABC7D31A4A4C20507ABE0E07DF619A3
+      070E65FAE429A462B13D5EE6FA3E07955770CBF7C772CAE30FE285C24DAC6985
+      9454FA78824A8C2C45F2ED188DE95C7914DDBB26701C8D68795032281BF1A1E0
+      A2B3793E58B99CA3FBF447CAC0E9DD111681D69ACAB21421DBE6817113E19F33
+      7864D5125445A7A002637740967CC112806BD732BAFF1066FEE432E2D118BED6
+      6CA9AD094ADEA4C4711C42B645978ACAA6DB7DFCC57A3CADDB9A912AE17E18D0
+      17584C51CD2D82D28DC017EADD6B38B1283466029BD59ADB0B11BCD964821B9E
+      798AC7E6BC82A5D40ED51E1883D0E067B31CD2BB370FFEE65A2A9329EE3BF35C
+      CCD333F9C7AA2223FD9D803426088A3845003F59CB19FD8730E3F2AB8947A338
+      AECBA537FD1FDE5AB210DB0EE1A4D35806FE76CDF5742AAFC0928AE96FCFE757
+      CF3E85E85C19CC2DADF73A04814A4780114510056C4F150274A6F74183106D20
+      3A022C858947A1A20CD1A3076B2CC10AE3B1D2F8AC281DDA63B997679576F9D7
+      BBEF30FE9A696CADAF276CDB3C30EE1CCE1F70285E7575907168AA3834C10455
+      2860E503004FEF3798E9975F45221A259BCF73DEAD7FE4EFEFBFC92A344B376F
+      64DDD62DDC30E5328E1D3E1C290433E6CFE3E2190F914BC43096C28876AE1F8C
+      19D11CA3523916400FBA753988C02EB5FE3D591644A3A01426E12175C5AE6DB4
+      06D7837406994C316FF962CEB9EEB73CF9DF37529E48F2C0F88988A766F0C8EA
+      A5C8F2F2C0F81B030517556260BFC1CCBC721AB17098BCE370E13D7F61F6CA25
+      D80306A01B1A88F99A47FEEB7ACEFCF609004C9F3F8F8B663C88DFBD2B321643
+      CBE6BC69830461C221D8761370B2E90FD08B4EE529BC3DD8A4BD49C96DB1ADA0
+      7E2F114727E3E8C44E472A812E4BA22BCAF0CA12585555CC59B69871D74C635B
+      433DB66571DFB8739938E010743A8D3440A1809D2FE07FB29651FD06F3E81557
+      0500160A5C70F76DCC5EBD0CAB6F1F4C24849F4933E1F813B703F8C63C26CF78
+      10BF5B57442A89B654FB6A2E851041B03AD58778CC2628A02A3AD35A4324DC83
+      783C846E83C9DD194C6505CCB4773A2C0BC2214826A0A20CAF2C8955D59BD796
+      2DE2ECEB7E4B6D630361DBE6A171E7D13F9644A7D3D80517B7C8C0C7A7FE8A54
+      2C4EB650E0FC7B6EE789D5CBB0AAAAF02C0B2D1544A3BCB17239F3972DE1DE39
+      2F73C1CC872874ED824826020676443DBA3110B62B89843B954E05A515410568
+      17C22151F444BF9CA84D691036100FEA353D0356551573572C65DCEFAFE5912B
+      A7B12597A1B6AE0E4BFBB89FAD0F6CE015C1245228385C74EF1DCC5EB30C55D5
+      1BCFB2C068B42B2155C68ADA5A4EB8F9064C2C0625002D0B648714F48B807091
+      1065C90A601342144BDC8C8148B81CCB0A722B5FFA7A5904CC8CC701812704CA
+      AA62DE864F39FC866BC847426404B0752BA7F71BC4CC2BAE26118B91CDE7B9F0
+      DE3B98BD7A2956556F3CDB02A5C04888842105221A012991D130261CC6741C80
+      8118035286B1AC54E9D47626DA5614293BAEE07D6F525AB6592AB0A142E08743
+      C864826AC7416A1FB66C61F4A0A13C76E5AF4944A2388ECB8FEEBB83D9AB97A1
+      AAAA02002DB5FD7EA130280BE3FB0829D14A056EDA9793D1B0314D45F9252622
+      10C2FA4AA3D74DAA6D073F2D0B9DCB615B16EE67EB1935E810A64FBD9A44244A
+      B690E7C27B6E67F6EAE5D87D7AE35A2A00B0D45F43009892C1060251CCBB7FB9
+      C3D979D947FBEAB4DBDB15294180921277E3178C1E32949953A7118F46C8390E
+      17DD7D3BB3572E46F63E18D768A4154137F7659B97791757485FC1489A1E218B
+      0F36B89ED3AE99B94DDD304D5169DB71F1D77DCAA8FE4378F48AAB894723140A
+      052EBCF3CF3CB1F843282F27EA7AF40E47D19934AA7918AD741FAD115A83D6B4
+      D31BDCB30840181741BE348A1288902FA4F1BCC017FA2A086928AE441CAC7C01
+      F793758CEA3B9059537F4D59C98DB9FB2F3CB1E463ACF20AE2F9022F9C7B318B
+      265FC6B95503F1EBEA760CFD7B3E141C4C430376631A9DCE607CBF23F22C3B89
+      005F3BB86E43E94CF0C284846CB696BC5334C45F328AA56042DE6D5ACA8DEA37
+      8899537F4D225A9C44EEBD9D27562EC23AA8279E53209CC931A0535752B1180F
+      8E3F97F3061C8A5F5383559C0CA5E3404D0D87A908AF9F77290F7F6F0CE16C0E
+      EDBA1D91F96BEA395242BE50A0BEB1B6381613802805E49DAD64321E527EF926
+      C5340F267CC2A8BE811B938CC58A8EF45F787CD512ACDE55784A21ED1035B5B5
+      4CF8C37554373410B1433C386E2293061E8A57538365403A2E6CA9E6A8F24A8E
+      EEDD870B471CC5CCD13F249ECBA33DAFE3182904149C5AF285EAD2A9409D83D0
+      E1466AEB3258ED4AEA34891402C96E0E6D908EDB148D39BDDF209EB8721AC958
+      8C821BB8314D00866C8846D1A110A2B292D7972C64C2F5BFA12E9D26645B3C30
+      FE3C26F53F14AF7A1BC2D358A1108FCF798559F3E60070E6D0E13C72C6D98432
+      39B4EBB52ADBB15B31C66029A8ADFB9474C605648989144DF0176CDA5A5DDC7D
+      D47A149BE77E5D179DCEA033E91D8FC646747D3DBAB6166FD56A4EEB3B90E997
+      5F4D2C12215F70B8E0AEDB787CE592ED8E74C80E8E640C938C631F7C30AF2E5E
+      C4F8DF4DA3BAA1819065F1B7F113396FE061B8DBB6E0B92EE94C8673AEFD2F1E
+      7DE9053486F14387336BCCD9447339B4EBB46FB2091C6DD856BB8C82D3045CA9
+      A21E60139F7DBE1E63FAB57A5E2BCD8C9E87C915209F6348AA2228DD69FE3E84
+      41A2F0BC3CC3878EE0FE9F5E41221A25572870E17D77F0C4EAA5C15AB8B9236D
+      15831A1A5C63B0FA543177E922265CFF5B66FFEF1B298F27F8FBC41F11F77C5E
+      5FFC3176248E5B5BC71F1EBA9FDEDDBA71FCB0119C3974383384E082E7669396
+      0261D96DE20942145313EE87D83BEEED33C581D6F0D98695647327054EAB6945
+      F208703D44AE80D9BC99EB4E3D839FFE8F9331EC26B22D40FB3E1589244A291C
+      D709269155CD967296DAEEFB892290F12808F0105855BD7975F142CEBAE6D7CC
+      BEEE462A5249EEB9F012AA1B1B83E74981E77A481564145DED73E6A1C3B8399F
+      E57FBDFA1C2261B7C5E81BA494386E1E633E2AE69F4C0944086CA3CBB69A8FD9
+      B4C5A5772F3BD8AADB8A47F83EE4F3C8BA7A06272BE89C2ADBE725D95C8E8BFF
+      7617B39A002CED5FDEE9C1A2B8D62EE6513C0246CE59BA981F5CFF1B1EFFDD7F
+      D3A9AC9CCE657B786611B1BEE59D50BE8FDF16161A63505292CE2EC1526B9BF2
+      5294402CDD3497FF90156B36D3BF4F2F72F95644738A1B3F8DC684C24C79F83E
+      FEF9CE9B84952A862A776A2DC08A4458DD50CB1B9B3E47F63E784715DE594491
+      91769191982068D1B78A39AB56F0FDDF4D63589F7E78AE8B3406650C75D5D54C
+      9D3889E3471E81AD149F6CD9CC154F3D16CCF6B4C1FD085228924C763EB16806
+      5F97CA939B9858BAE77296AC58C42927F6A215C9BE60CDA630E130549453DDD0
+      C8631FBCB3E7BCB365055197CA0A64CF9EE8901D9CDBEB2E5D11E88B6D433C16
+      042D2C0B150EB3A0BE8605F3D783E3402E075F6CE427932E62E421439142B076
+      F366C6DC7D0B4BFD02B26B972062DEFAC0B3C4713505E785C0466FA747731005
+      52D6B072CD6B6CDA722ADDBA485CB7650F2BB12416052511C918B267B7DDBF6E
+      01C820806042A120DADCC4C0160ECC2AAAB665E14723C8B22422EF223319F4FA
+      CFF9D515BFE4864B7F0CC0DACD9B1873C74D2C75F3583DBA07D4692D80C6186C
+      5BB2B57A2521FB3582186613439AA74C054A191C772E0B16AE63DCA87E141C8D
+      6A814A9722DAE110D80AA30DFEEEF47887F6017B5B1D6D2EB5B70015815008ED
+      382899C3DDB291338F3EAE09C0359B3632E6CE9B59E6E4B07A74C3936D0C8D19
+      E32384C5B69AC719D8374B5DBD4288A698E18E6524816D5CC4DB0B5EE7BB27F6
+      C352026D5A4690D2E08400D5C2454F7B9663A5E5A99481D910128422E77B3466
+      326CA8ABE1ECBB6F6399934375EF1644C0DB06A0C1B624F58D0DB8EE0CCACB28
+      C6189A9AEC08A2EF4B92892C1B37FF8B0F178DE184632A69CCE860A5DF4269BA
+      F957119B2CBE2C21F0055056C64BAB9773C20DD7B0C5F7D82835AA7B377C4B15
+      C36D6DEA938F6D5B7CBAE2FF5159BE1429827AEE661CD9111C63E0908130B8FF
+      5C9E7BE5351CA7C8AA035CA4824808520944CF1E7C5CC8B031124276E98A6F15
+      53086D15A5148D19876DB5B770500F43C1DD851F3B334C13B205A34FA961E3E6
+      E9BCF36135B198D8BB81DBCF52B2AFE130A412988A72548F1EC8CA3274C8DA5E
+      C9D116166AED130E0B96AD7A8CDE07BD4F2824317A9724D4AE6A9AC9C288C3A0
+      EFC12FF1E4B3CF93CE0A6C6BFF44BD5B2A4D6E5304E251FC68186DD9DB55B82D
+      001A6308D982EAEA06AAABFF40FF2AC8E7776B57773DA34DB0BC397B6C03B5F5
+      F7F3ECCB6B8845C5F68F891D8052024ACA4075A56C7F86CF184D282479E7C33F
+      3164D00AA454C50F74EC22BBDB8201D99CE6908182138E99CFF3AF3EC4F2D579
+      E231D1DCC1FC468BAF3589B862E1D2F7809B19D04792CBEB3DCDEEBB395B741B
+      F205F8E1191E65A907F8FBAC17293841D1E781ACD61D21811A437D4396854B7F
+      CC49C7E5C8E641CA3D0E7C0F1B2405B8AE2195924C9EF8059F6FBC89194F2D21
+      16157BA2F437468CF109D99267FE7D35478E58402CAAF0BDBD8E79CFFE9F5290
+      CE18460C958CFDFE7CE6BDFD475E9ABB99544AE2FBDF4C207DDFA3BCCCE2D957
+      EEA16BE59D1C3A4815B7A1ECF5B2BDFF5549433A6318370A0E1FF6188F3E792B
+      EF2D68A02C25F1BE61407ABE4F65B9C59CF9CF51DFF0734EFB8EA4A151EF4D8D
+      4BD2929588C171E192F31CAA0EBA83BB1EBE8B45CBB39425259EF7CD30909EEF
+      5259AE78F3FDF92C5A760113C6B8A433413EBE05D2B2E082E7192C4B70D9A569
+      3A77FA23B7DC7D374B5664294B093CFFEB0DA4E7FB742AB77967C17CE6BF7716
+      179E5D833612AD754B5DA496AD89A50CBE365796125CF5D31ABA77FB3D37DFF5
+      17DE5FD840452AF021BF6EB376F0BD438FCE158A57DF7891B96F9DC925E76D21
+      1452B8EE3EED607369454B09B99C2195144CFD9FB5F4EEF5076EBFFF065E98BB
+      89645C22A53EA09787CDC5F7354A0952298BC79F79888F168FE7C71754130A29
+      1CC76F6DB4A775AD958242C1904C08AE9AD2C87147FE9947675FC98333176290
+      C4A202DF3F7059698CC1F33D920989EFBBFCF5A1DF52533F99299373584AB605
+      4068CBB7C24AAA6D29C1A5933C7A769BCEEC67D7B06AED2FB9F89C3318D82F42
+      3667F0BC60D7EA8122BEEF13B21565298B8F162DE2A9172EE798917318F55D41
+      435A8069950A3797365E25C1D7865C5E30F654C1D53F7B07C79DC2EF6FBD8659
+      4FAF406B412A11ECB9D99FCC0CBE5DEA039AF29422EFE47860C6ADFCEBE59339
+      6FDC1C467D5751D740B0C1A6EDEFBBEDDFB7091E6A68688421FD25D7FE620BFF
+      7AE9669E7DE575DE5A7009E3478DE198C3BB118B422EAFF13C90527E2585A4A5
+      8FE45A96241953E4F2F0FC9C1798FFDE8D1C36781EBFFC0958CAA2B6DEDB6386
+      B115D2FE8F0495021696259874161C77C43BCC7E76117F9BFE142FCE99C46927
+      9FC211C3BB52960ABEA55D7074B13020C8B27714A65A1B8CD108298884249188
+      A2AEDEF0D2DCD778E3DD3BE85CF924974ED254F55234A6358ED3210042477D53
+      36286F0B58D9ABA7E4173FCEB274C5733CFFEA3CEE9FFE6D663F7726271EFB1D
+      8E1E3990EE5D149615E4291C47E3EB52AEB1D9C73A76D910188881A6088831A6
+      789D4129412C2AB16D85E3C0671B6A79E7831759B9F61FA4922F3361ACC36143
+      A0E0286AEBFD8EAEE5DE154443506FD2FA3DC1453728AF1108060F100C199866
+      DDFA9778E5F557F9F7BCC13CFDC2090CEA7F3243071FC1D0C1BD38A85B98447C
+      7B8D8BEF079F940958B5AB219542209508EAB395A054EB93CEC08A355B58BA72
+      21CB57BD4063FA050E19B884493F807E55E07B8ABA7A1F21FCA61299B6554114
+      BF5CBFE3B5161435ABF8F2856D079B756CAB3D414D538C3D0A860E128C3CCC63
+      5BCD1296AF5AC2478B1FE6CDF7FBF3DA9BDF221A1D419F5E87D0BB575FBA75E9
+      4E455992443C443824B0AC00AC5232CA0F2ACEC8E63CD2D93CB575DBD8B2F513
+      3EDDB0986DD50B40BC47CF6EAB18F37D97430741A70A41BE20C917344AF994A5
+      F6D1E57D8B287EF15D46223B288A05E0795EE042012C5D0137FD7597B4601BC5
+      3405726D5B12091B84C8D1BDF36256AF5B4C4DDD0C366C4C30FFBD4E4037A01B
+      B1481762D10A22E104966507DB35F0F0BC0CF9422DD9DC56B2B98DC026600B90
+      271183017D0396BCFBA1E2B5B70CAEA791C2EFC889CC002845AEBE01FF7BE39A
+      CE0B630C1B366C60D9B26528A5309E47B1F6AE63C594B68D124C28E1105896A1
+      5421DEB4A3B4A8327A27952B25A444B3D07F808FC471058E5B7A61A643B69FED
+      792060598C3CE6182A2A2A30C6ECD7FF4AA424C54D272D6E5B12D3ECD8AFF2FF
+      01D5A842455AF50E610000000049454E44AE426082
+    }
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Image1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = Owner
+    Left = 111
+    Height = 43
+    Top = 15
+    Width = 99
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 15
+    Caption = '点名器'
+    Font.Height = -33
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    Left = 111
+    Height = 17
+    Top = 63
+    Width = 36
+    BorderSpacing.Top = 5
+    Caption = '版本：'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+  object Memo1: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Image1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 15
+    Height = 244
+    Top = 111
+    Width = 586
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 15
+    BorderSpacing.Top = 15
+    BorderSpacing.Right = 15
+    BorderSpacing.Bottom = 15
+    Lines.Strings = (
+      '随机点名器 - 一个简单的随机点名程序'
+      '    版权所有 (C) 2018 shine_5402(shine_5402@126.com)'
+      '    此程序是自由软件，您可以依据自由软件基金会发布的GNU通用公共许可证（版本3，或取决于您的选'
+      '择选择更高的版本）的条款重新分发和/或修改它。'
+      '    我们分发这个程序的目的是希望它有用，但是我们对它的可用性没有任何保证，甚至也没有对于适销性'
+      '或适用于特定用途的默示保证。有关详细信息，请参阅GNU通用公共许可证。'
+      '    您应该在收到本程序的同时就已经收到GNU通用公共许可证的副本。 如果没有，请参阅'
+      '<http://www.gnu.org/licenses/>。'
+      '    注意：本程序的图标不适用于GNU通用公共许可证的约束，它来自于：freebiesbug'
+      '(http://freebiesbug.com/psd-freebies/150-free-outlined-icons-psd-ai-svg-webfont/)，并经个人修'
+      '改，只免费提供给个人用途。'
+      ''
+      '                    GNU GENERAL PUBLIC LICENSE'
+      '                       Version 3, 29 June 2007'
+      ''
+      ' Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>'
+      ' Everyone is permitted to copy and distribute verbatim copies'
+      ' of this license document, but changing it is not allowed.'
+      ''
+      '                            Preamble'
+      ''
+      '  The GNU General Public License is a free, copyleft license for'
+      'software and other kinds of works.'
+      ''
+      '  The licenses for most software and other practical works are designed'
+      'to take away your freedom to share and change the works.  By contrast,'
+      'the GNU General Public License is intended to guarantee your freedom to'
+      'share and change all versions of a program--to make sure it remains free'
+      'software for all its users.  We, the Free Software Foundation, use the'
+      'GNU General Public License for most of our software; it applies also to'
+      'any other work released this way by its authors.  You can apply it to'
+      'your programs, too.'
+      ''
+      '  When we speak of free software, we are referring to freedom, not'
+      'price.  Our General Public Licenses are designed to make sure that you'
+      'have the freedom to distribute copies of free software (and charge for'
+      'them if you wish), that you receive source code or can get it if you'
+      'want it, that you can change the software or use pieces of it in new'
+      'free programs, and that you know you can do these things.'
+      ''
+      '  To protect your rights, we need to prevent others from denying you'
+      'these rights or asking you to surrender the rights.  Therefore, you have'
+      'certain responsibilities if you distribute copies of the software, or if'
+      'you modify it: responsibilities to respect the freedom of others.'
+      ''
+      '  For example, if you distribute copies of such a program, whether'
+      'gratis or for a fee, you must pass on to the recipients the same'
+      'freedoms that you received.  You must make sure that they, too, receive'
+      'or can get the source code.  And you must show them these terms so they'
+      'know their rights.'
+      ''
+      '  Developers that use the GNU GPL protect your rights with two steps:'
+      '(1) assert copyright on the software, and (2) offer you this License'
+      'giving you legal permission to copy, distribute and/or modify it.'
+      ''
+      '  For the developers'' and authors'' protection, the GPL clearly explains'
+      'that there is no warranty for this free software.  For both users'' and'
+      'authors'' sake, the GPL requires that modified versions be marked as'
+      'changed, so that their problems will not be attributed erroneously to'
+      'authors of previous versions.'
+      ''
+      '  Some devices are designed to deny users access to install or run'
+      'modified versions of the software inside them, although the manufacturer'
+      'can do so.  This is fundamentally incompatible with the aim of'
+      'protecting users'' freedom to change the software.  The systematic'
+      'pattern of such abuse occurs in the area of products for individuals to'
+      'use, which is precisely where it is most unacceptable.  Therefore, we'
+      'have designed this version of the GPL to prohibit the practice for those'
+      'products.  If such problems arise substantially in other domains, we'
+      'stand ready to extend this provision to those domains in future versions'
+      'of the GPL, as needed to protect the freedom of users.'
+      ''
+      '  Finally, every program is threatened constantly by software patents.'
+      'States should not allow patents to restrict development and use of'
+      'software on general-purpose computers, but in those that do, we wish to'
+      'avoid the special danger that patents applied to a free program could'
+      'make it effectively proprietary.  To prevent this, the GPL assures that'
+      'patents cannot be used to render the program non-free.'
+      ''
+      '  The precise terms and conditions for copying, distribution and'
+      'modification follow.'
+      ''
+      '                       TERMS AND CONDITIONS'
+      ''
+      '  0. Definitions.'
+      ''
+      '  "This License" refers to version 3 of the GNU General Public License.'
+      ''
+      '  "Copyright" also means copyright-like laws that apply to other kinds of'
+      'works, such as semiconductor masks.'
+      ''
+      '  "The Program" refers to any copyrightable work licensed under this'
+      'License.  Each licensee is addressed as "you".  "Licensees" and'
+      '"recipients" may be individuals or organizations.'
+      ''
+      '  To "modify" a work means to copy from or adapt all or part of the work'
+      'in a fashion requiring copyright permission, other than the making of an'
+      'exact copy.  The resulting work is called a "modified version" of the'
+      'earlier work or a work "based on" the earlier work.'
+      ''
+      '  A "covered work" means either the unmodified Program or a work based'
+      'on the Program.'
+      ''
+      '  To "propagate" a work means to do anything with it that, without'
+      'permission, would make you directly or secondarily liable for'
+      'infringement under applicable copyright law, except executing it on a'
+      'computer or modifying a private copy.  Propagation includes copying,'
+      'distribution (with or without modification), making available to the'
+      'public, and in some countries other activities as well.'
+      ''
+      '  To "convey" a work means any kind of propagation that enables other'
+      'parties to make or receive copies.  Mere interaction with a user through'
+      'a computer network, with no transfer of a copy, is not conveying.'
+      ''
+      '  An interactive user interface displays "Appropriate Legal Notices"'
+      'to the extent that it includes a convenient and prominently visible'
+      'feature that (1) displays an appropriate copyright notice, and (2)'
+      'tells the user that there is no warranty for the work (except to the'
+      'extent that warranties are provided), that licensees may convey the'
+      'work under this License, and how to view a copy of this License.  If'
+      'the interface presents a list of user commands or options, such as a'
+      'menu, a prominent item in the list meets this criterion.'
+      ''
+      '  1. Source Code.'
+      ''
+      '  The "source code" for a work means the preferred form of the work'
+      'for making modifications to it.  "Object code" means any non-source'
+      'form of a work.'
+      ''
+      '  A "Standard Interface" means an interface that either is an official'
+      'standard defined by a recognized standards body, or, in the case of'
+      'interfaces specified for a particular programming language, one that'
+      'is widely used among developers working in that language.'
+      ''
+      '  The "System Libraries" of an executable work include anything, other'
+      'than the work as a whole, that (a) is included in the normal form of'
+      'packaging a Major Component, but which is not part of that Major'
+      'Component, and (b) serves only to enable use of the work with that'
+      'Major Component, or to implement a Standard Interface for which an'
+      'implementation is available to the public in source code form.  A'
+      '"Major Component", in this context, means a major essential component'
+      '(kernel, window system, and so on) of the specific operating system'
+      '(if any) on which the executable work runs, or a compiler used to'
+      'produce the work, or an object code interpreter used to run it.'
+      ''
+      '  The "Corresponding Source" for a work in object code form means all'
+      'the source code needed to generate, install, and (for an executable'
+      'work) run the object code and to modify the work, including scripts to'
+      'control those activities.  However, it does not include the work''s'
+      'System Libraries, or general-purpose tools or generally available free'
+      'programs which are used unmodified in performing those activities but'
+      'which are not part of the work.  For example, Corresponding Source'
+      'includes interface definition files associated with source files for'
+      'the work, and the source code for shared libraries and dynamically'
+      'linked subprograms that the work is specifically designed to require,'
+      'such as by intimate data communication or control flow between those'
+      'subprograms and other parts of the work.'
+      ''
+      '  The Corresponding Source need not include anything that users'
+      'can regenerate automatically from other parts of the Corresponding'
+      'Source.'
+      ''
+      '  The Corresponding Source for a work in source code form is that'
+      'same work.'
+      ''
+      '  2. Basic Permissions.'
+      ''
+      '  All rights granted under this License are granted for the term of'
+      'copyright on the Program, and are irrevocable provided the stated'
+      'conditions are met.  This License explicitly affirms your unlimited'
+      'permission to run the unmodified Program.  The output from running a'
+      'covered work is covered by this License only if the output, given its'
+      'content, constitutes a covered work.  This License acknowledges your'
+      'rights of fair use or other equivalent, as provided by copyright law.'
+      ''
+      '  You may make, run and propagate covered works that you do not'
+      'convey, without conditions so long as your license otherwise remains'
+      'in force.  You may convey covered works to others for the sole purpose'
+      'of having them make modifications exclusively for you, or provide you'
+      'with facilities for running those works, provided that you comply with'
+      'the terms of this License in conveying all material for which you do'
+      'not control copyright.  Those thus making or running the covered works'
+      'for you must do so exclusively on your behalf, under your direction'
+      'and control, on terms that prohibit them from making any copies of'
+      'your copyrighted material outside their relationship with you.'
+      ''
+      '  Conveying under any other circumstances is permitted solely under'
+      'the conditions stated below.  Sublicensing is not allowed; section 10'
+      'makes it unnecessary.'
+      ''
+      '  3. Protecting Users'' Legal Rights From Anti-Circumvention Law.'
+      ''
+      '  No covered work shall be deemed part of an effective technological'
+      'measure under any applicable law fulfilling obligations under article'
+      '11 of the WIPO copyright treaty adopted on 20 December 1996, or'
+      'similar laws prohibiting or restricting circumvention of such'
+      'measures.'
+      ''
+      '  When you convey a covered work, you waive any legal power to forbid'
+      'circumvention of technological measures to the extent such circumvention'
+      'is effected by exercising rights under this License with respect to'
+      'the covered work, and you disclaim any intention to limit operation or'
+      'modification of the work as a means of enforcing, against the work''s'
+      'users, your or third parties'' legal rights to forbid circumvention of'
+      'technological measures.'
+      ''
+      '  4. Conveying Verbatim Copies.'
+      ''
+      '  You may convey verbatim copies of the Program''s source code as you'
+      'receive it, in any medium, provided that you conspicuously and'
+      'appropriately publish on each copy an appropriate copyright notice;'
+      'keep intact all notices stating that this License and any'
+      'non-permissive terms added in accord with section 7 apply to the code;'
+      'keep intact all notices of the absence of any warranty; and give all'
+      'recipients a copy of this License along with the Program.'
+      ''
+      '  You may charge any price or no price for each copy that you convey,'
+      'and you may offer support or warranty protection for a fee.'
+      ''
+      '  5. Conveying Modified Source Versions.'
+      ''
+      '  You may convey a work based on the Program, or the modifications to'
+      'produce it from the Program, in the form of source code under the'
+      'terms of section 4, provided that you also meet all of these conditions:'
+      ''
+      '    a) The work must carry prominent notices stating that you modified'
+      '    it, and giving a relevant date.'
+      ''
+      '    b) The work must carry prominent notices stating that it is'
+      '    released under this License and any conditions added under section'
+      '    7.  This requirement modifies the requirement in section 4 to'
+      '    "keep intact all notices".'
+      ''
+      '    c) You must license the entire work, as a whole, under this'
+      '    License to anyone who comes into possession of a copy.  This'
+      '    License will therefore apply, along with any applicable section 7'
+      '    additional terms, to the whole of the work, and all its parts,'
+      '    regardless of how they are packaged.  This License gives no'
+      '    permission to license the work in any other way, but it does not'
+      '    invalidate such permission if you have separately received it.'
+      ''
+      '    d) If the work has interactive user interfaces, each must display'
+      '    Appropriate Legal Notices; however, if the Program has interactive'
+      '    interfaces that do not display Appropriate Legal Notices, your'
+      '    work need not make them do so.'
+      ''
+      '  A compilation of a covered work with other separate and independent'
+      'works, which are not by their nature extensions of the covered work,'
+      'and which are not combined with it such as to form a larger program,'
+      'in or on a volume of a storage or distribution medium, is called an'
+      '"aggregate" if the compilation and its resulting copyright are not'
+      'used to limit the access or legal rights of the compilation''s users'
+      'beyond what the individual works permit.  Inclusion of a covered work'
+      'in an aggregate does not cause this License to apply to the other'
+      'parts of the aggregate.'
+      ''
+      '  6. Conveying Non-Source Forms.'
+      ''
+      '  You may convey a covered work in object code form under the terms'
+      'of sections 4 and 5, provided that you also convey the'
+      'machine-readable Corresponding Source under the terms of this License,'
+      'in one of these ways:'
+      ''
+      '    a) Convey the object code in, or embodied in, a physical product'
+      '    (including a physical distribution medium), accompanied by the'
+      '    Corresponding Source fixed on a durable physical medium'
+      '    customarily used for software interchange.'
+      ''
+      '    b) Convey the object code in, or embodied in, a physical product'
+      '    (including a physical distribution medium), accompanied by a'
+      '    written offer, valid for at least three years and valid for as'
+      '    long as you offer spare parts or customer support for that product'
+      '    model, to give anyone who possesses the object code either (1) a'
+      '    copy of the Corresponding Source for all the software in the'
+      '    product that is covered by this License, on a durable physical'
+      '    medium customarily used for software interchange, for a price no'
+      '    more than your reasonable cost of physically performing this'
+      '    conveying of source, or (2) access to copy the'
+      '    Corresponding Source from a network server at no charge.'
+      ''
+      '    c) Convey individual copies of the object code with a copy of the'
+      '    written offer to provide the Corresponding Source.  This'
+      '    alternative is allowed only occasionally and noncommercially, and'
+      '    only if you received the object code with such an offer, in accord'
+      '    with subsection 6b.'
+      ''
+      '    d) Convey the object code by offering access from a designated'
+      '    place (gratis or for a charge), and offer equivalent access to the'
+      '    Corresponding Source in the same way through the same place at no'
+      '    further charge.  You need not require recipients to copy the'
+      '    Corresponding Source along with the object code.  If the place to'
+      '    copy the object code is a network server, the Corresponding Source'
+      '    may be on a different server (operated by you or a third party)'
+      '    that supports equivalent copying facilities, provided you maintain'
+      '    clear directions next to the object code saying where to find the'
+      '    Corresponding Source.  Regardless of what server hosts the'
+      '    Corresponding Source, you remain obligated to ensure that it is'
+      '    available for as long as needed to satisfy these requirements.'
+      ''
+      '    e) Convey the object code using peer-to-peer transmission, provided'
+      '    you inform other peers where the object code and Corresponding'
+      '    Source of the work are being offered to the general public at no'
+      '    charge under subsection 6d.'
+      ''
+      '  A separable portion of the object code, whose source code is excluded'
+      'from the Corresponding Source as a System Library, need not be'
+      'included in conveying the object code work.'
+      ''
+      '  A "User Product" is either (1) a "consumer product", which means any'
+      'tangible personal property which is normally used for personal, family,'
+      'or household purposes, or (2) anything designed or sold for incorporation'
+      'into a dwelling.  In determining whether a product is a consumer product,'
+      'doubtful cases shall be resolved in favor of coverage.  For a particular'
+      'product received by a particular user, "normally used" refers to a'
+      'typical or common use of that class of product, regardless of the status'
+      'of the particular user or of the way in which the particular user'
+      'actually uses, or expects or is expected to use, the product.  A product'
+      'is a consumer product regardless of whether the product has substantial'
+      'commercial, industrial or non-consumer uses, unless such uses represent'
+      'the only significant mode of use of the product.'
+      ''
+      '  "Installation Information" for a User Product means any methods,'
+      'procedures, authorization keys, or other information required to install'
+      'and execute modified versions of a covered work in that User Product from'
+      'a modified version of its Corresponding Source.  The information must'
+      'suffice to ensure that the continued functioning of the modified object'
+      'code is in no case prevented or interfered with solely because'
+      'modification has been made.'
+      ''
+      '  If you convey an object code work under this section in, or with, or'
+      'specifically for use in, a User Product, and the conveying occurs as'
+      'part of a transaction in which the right of possession and use of the'
+      'User Product is transferred to the recipient in perpetuity or for a'
+      'fixed term (regardless of how the transaction is characterized), the'
+      'Corresponding Source conveyed under this section must be accompanied'
+      'by the Installation Information.  But this requirement does not apply'
+      'if neither you nor any third party retains the ability to install'
+      'modified object code on the User Product (for example, the work has'
+      'been installed in ROM).'
+      ''
+      '  The requirement to provide Installation Information does not include a'
+      'requirement to continue to provide support service, warranty, or updates'
+      'for a work that has been modified or installed by the recipient, or for'
+      'the User Product in which it has been modified or installed.  Access to a'
+      'network may be denied when the modification itself materially and'
+      'adversely affects the operation of the network or violates the rules and'
+      'protocols for communication across the network.'
+      ''
+      '  Corresponding Source conveyed, and Installation Information provided,'
+      'in accord with this section must be in a format that is publicly'
+      'documented (and with an implementation available to the public in'
+      'source code form), and must require no special password or key for'
+      'unpacking, reading or copying.'
+      ''
+      '  7. Additional Terms.'
+      ''
+      '  "Additional permissions" are terms that supplement the terms of this'
+      'License by making exceptions from one or more of its conditions.'
+      'Additional permissions that are applicable to the entire Program shall'
+      'be treated as though they were included in this License, to the extent'
+      'that they are valid under applicable law.  If additional permissions'
+      'apply only to part of the Program, that part may be used separately'
+      'under those permissions, but the entire Program remains governed by'
+      'this License without regard to the additional permissions.'
+      ''
+      '  When you convey a copy of a covered work, you may at your option'
+      'remove any additional permissions from that copy, or from any part of'
+      'it.  (Additional permissions may be written to require their own'
+      'removal in certain cases when you modify the work.)  You may place'
+      'additional permissions on material, added by you to a covered work,'
+      'for which you have or can give appropriate copyright permission.'
+      ''
+      '  Notwithstanding any other provision of this License, for material you'
+      'add to a covered work, you may (if authorized by the copyright holders of'
+      'that material) supplement the terms of this License with terms:'
+      ''
+      '    a) Disclaiming warranty or limiting liability differently from the'
+      '    terms of sections 15 and 16 of this License; or'
+      ''
+      '    b) Requiring preservation of specified reasonable legal notices or'
+      '    author attributions in that material or in the Appropriate Legal'
+      '    Notices displayed by works containing it; or'
+      ''
+      '    c) Prohibiting misrepresentation of the origin of that material, or'
+      '    requiring that modified versions of such material be marked in'
+      '    reasonable ways as different from the original version; or'
+      ''
+      '    d) Limiting the use for publicity purposes of names of licensors or'
+      '    authors of the material; or'
+      ''
+      '    e) Declining to grant rights under trademark law for use of some'
+      '    trade names, trademarks, or service marks; or'
+      ''
+      '    f) Requiring indemnification of licensors and authors of that'
+      '    material by anyone who conveys the material (or modified versions of'
+      '    it) with contractual assumptions of liability to the recipient, for'
+      '    any liability that these contractual assumptions directly impose on'
+      '    those licensors and authors.'
+      ''
+      '  All other non-permissive additional terms are considered "further'
+      'restrictions" within the meaning of section 10.  If the Program as you'
+      'received it, or any part of it, contains a notice stating that it is'
+      'governed by this License along with a term that is a further'
+      'restriction, you may remove that term.  If a license document contains'
+      'a further restriction but permits relicensing or conveying under this'
+      'License, you may add to a covered work material governed by the terms'
+      'of that license document, provided that the further restriction does'
+      'not survive such relicensing or conveying.'
+      ''
+      '  If you add terms to a covered work in accord with this section, you'
+      'must place, in the relevant source files, a statement of the'
+      'additional terms that apply to those files, or a notice indicating'
+      'where to find the applicable terms.'
+      ''
+      '  Additional terms, permissive or non-permissive, may be stated in the'
+      'form of a separately written license, or stated as exceptions;'
+      'the above requirements apply either way.'
+      ''
+      '  8. Termination.'
+      ''
+      '  You may not propagate or modify a covered work except as expressly'
+      'provided under this License.  Any attempt otherwise to propagate or'
+      'modify it is void, and will automatically terminate your rights under'
+      'this License (including any patent licenses granted under the third'
+      'paragraph of section 11).'
+      ''
+      '  However, if you cease all violation of this License, then your'
+      'license from a particular copyright holder is reinstated (a)'
+      'provisionally, unless and until the copyright holder explicitly and'
+      'finally terminates your license, and (b) permanently, if the copyright'
+      'holder fails to notify you of the violation by some reasonable means'
+      'prior to 60 days after the cessation.'
+      ''
+      '  Moreover, your license from a particular copyright holder is'
+      'reinstated permanently if the copyright holder notifies you of the'
+      'violation by some reasonable means, this is the first time you have'
+      'received notice of violation of this License (for any work) from that'
+      'copyright holder, and you cure the violation prior to 30 days after'
+      'your receipt of the notice.'
+      ''
+      '  Termination of your rights under this section does not terminate the'
+      'licenses of parties who have received copies or rights from you under'
+      'this License.  If your rights have been terminated and not permanently'
+      'reinstated, you do not qualify to receive new licenses for the same'
+      'material under section 10.'
+      ''
+      '  9. Acceptance Not Required for Having Copies.'
+      ''
+      '  You are not required to accept this License in order to receive or'
+      'run a copy of the Program.  Ancillary propagation of a covered work'
+      'occurring solely as a consequence of using peer-to-peer transmission'
+      'to receive a copy likewise does not require acceptance.  However,'
+      'nothing other than this License grants you permission to propagate or'
+      'modify any covered work.  These actions infringe copyright if you do'
+      'not accept this License.  Therefore, by modifying or propagating a'
+      'covered work, you indicate your acceptance of this License to do so.'
+      ''
+      '  10. Automatic Licensing of Downstream Recipients.'
+      ''
+      '  Each time you convey a covered work, the recipient automatically'
+      'receives a license from the original licensors, to run, modify and'
+      'propagate that work, subject to this License.  You are not responsible'
+      'for enforcing compliance by third parties with this License.'
+      ''
+      '  An "entity transaction" is a transaction transferring control of an'
+      'organization, or substantially all assets of one, or subdividing an'
+      'organization, or merging organizations.  If propagation of a covered'
+      'work results from an entity transaction, each party to that'
+      'transaction who receives a copy of the work also receives whatever'
+      'licenses to the work the party''s predecessor in interest had or could'
+      'give under the previous paragraph, plus a right to possession of the'
+      'Corresponding Source of the work from the predecessor in interest, if'
+      'the predecessor has it or can get it with reasonable efforts.'
+      ''
+      '  You may not impose any further restrictions on the exercise of the'
+      'rights granted or affirmed under this License.  For example, you may'
+      'not impose a license fee, royalty, or other charge for exercise of'
+      'rights granted under this License, and you may not initiate litigation'
+      '(including a cross-claim or counterclaim in a lawsuit) alleging that'
+      'any patent claim is infringed by making, using, selling, offering for'
+      'sale, or importing the Program or any portion of it.'
+      ''
+      '  11. Patents.'
+      ''
+      '  A "contributor" is a copyright holder who authorizes use under this'
+      'License of the Program or a work on which the Program is based.  The'
+      'work thus licensed is called the contributor''s "contributor version".'
+      ''
+      '  A contributor''s "essential patent claims" are all patent claims'
+      'owned or controlled by the contributor, whether already acquired or'
+      'hereafter acquired, that would be infringed by some manner, permitted'
+      'by this License, of making, using, or selling its contributor version,'
+      'but do not include claims that would be infringed only as a'
+      'consequence of further modification of the contributor version.  For'
+      'purposes of this definition, "control" includes the right to grant'
+      'patent sublicenses in a manner consistent with the requirements of'
+      'this License.'
+      ''
+      '  Each contributor grants you a non-exclusive, worldwide, royalty-free'
+      'patent license under the contributor''s essential patent claims, to'
+      'make, use, sell, offer for sale, import and otherwise run, modify and'
+      'propagate the contents of its contributor version.'
+      ''
+      '  In the following three paragraphs, a "patent license" is any express'
+      'agreement or commitment, however denominated, not to enforce a patent'
+      '(such as an express permission to practice a patent or covenant not to'
+      'sue for patent infringement).  To "grant" such a patent license to a'
+      'party means to make such an agreement or commitment not to enforce a'
+      'patent against the party.'
+      ''
+      '  If you convey a covered work, knowingly relying on a patent license,'
+      'and the Corresponding Source of the work is not available for anyone'
+      'to copy, free of charge and under the terms of this License, through a'
+      'publicly available network server or other readily accessible means,'
+      'then you must either (1) cause the Corresponding Source to be so'
+      'available, or (2) arrange to deprive yourself of the benefit of the'
+      'patent license for this particular work, or (3) arrange, in a manner'
+      'consistent with the requirements of this License, to extend the patent'
+      'license to downstream recipients.  "Knowingly relying" means you have'
+      'actual knowledge that, but for the patent license, your conveying the'
+      'covered work in a country, or your recipient''s use of the covered work'
+      'in a country, would infringe one or more identifiable patents in that'
+      'country that you have reason to believe are valid.'
+      ''
+      '  If, pursuant to or in connection with a single transaction or'
+      'arrangement, you convey, or propagate by procuring conveyance of, a'
+      'covered work, and grant a patent license to some of the parties'
+      'receiving the covered work authorizing them to use, propagate, modify'
+      'or convey a specific copy of the covered work, then the patent license'
+      'you grant is automatically extended to all recipients of the covered'
+      'work and works based on it.'
+      ''
+      '  A patent license is "discriminatory" if it does not include within'
+      'the scope of its coverage, prohibits the exercise of, or is'
+      'conditioned on the non-exercise of one or more of the rights that are'
+      'specifically granted under this License.  You may not convey a covered'
+      'work if you are a party to an arrangement with a third party that is'
+      'in the business of distributing software, under which you make payment'
+      'to the third party based on the extent of your activity of conveying'
+      'the work, and under which the third party grants, to any of the'
+      'parties who would receive the covered work from you, a discriminatory'
+      'patent license (a) in connection with copies of the covered work'
+      'conveyed by you (or copies made from those copies), or (b) primarily'
+      'for and in connection with specific products or compilations that'
+      'contain the covered work, unless you entered into that arrangement,'
+      'or that patent license was granted, prior to 28 March 2007.'
+      ''
+      '  Nothing in this License shall be construed as excluding or limiting'
+      'any implied license or other defenses to infringement that may'
+      'otherwise be available to you under applicable patent law.'
+      ''
+      '  12. No Surrender of Others'' Freedom.'
+      ''
+      '  If conditions are imposed on you (whether by court order, agreement or'
+      'otherwise) that contradict the conditions of this License, they do not'
+      'excuse you from the conditions of this License.  If you cannot convey a'
+      'covered work so as to satisfy simultaneously your obligations under this'
+      'License and any other pertinent obligations, then as a consequence you may'
+      'not convey it at all.  For example, if you agree to terms that obligate you'
+      'to collect a royalty for further conveying from those to whom you convey'
+      'the Program, the only way you could satisfy both those terms and this'
+      'License would be to refrain entirely from conveying the Program.'
+      ''
+      '  13. Use with the GNU Affero General Public License.'
+      ''
+      '  Notwithstanding any other provision of this License, you have'
+      'permission to link or combine any covered work with a work licensed'
+      'under version 3 of the GNU Affero General Public License into a single'
+      'combined work, and to convey the resulting work.  The terms of this'
+      'License will continue to apply to the part which is the covered work,'
+      'but the special requirements of the GNU Affero General Public License,'
+      'section 13, concerning interaction through a network will apply to the'
+      'combination as such.'
+      ''
+      '  14. Revised Versions of this License.'
+      ''
+      '  The Free Software Foundation may publish revised and/or new versions of'
+      'the GNU General Public License from time to time.  Such new versions will'
+      'be similar in spirit to the present version, but may differ in detail to'
+      'address new problems or concerns.'
+      ''
+      '  Each version is given a distinguishing version number.  If the'
+      'Program specifies that a certain numbered version of the GNU General'
+      'Public License "or any later version" applies to it, you have the'
+      'option of following the terms and conditions either of that numbered'
+      'version or of any later version published by the Free Software'
+      'Foundation.  If the Program does not specify a version number of the'
+      'GNU General Public License, you may choose any version ever published'
+      'by the Free Software Foundation.'
+      ''
+      '  If the Program specifies that a proxy can decide which future'
+      'versions of the GNU General Public License can be used, that proxy''s'
+      'public statement of acceptance of a version permanently authorizes you'
+      'to choose that version for the Program.'
+      ''
+      '  Later license versions may give you additional or different'
+      'permissions.  However, no additional obligations are imposed on any'
+      'author or copyright holder as a result of your choosing to follow a'
+      'later version.'
+      ''
+      '  15. Disclaimer of Warranty.'
+      ''
+      '  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY'
+      'APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT'
+      'HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY'
+      'OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,'
+      'THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR'
+      'PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM'
+      'IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF'
+      'ALL NECESSARY SERVICING, REPAIR OR CORRECTION.'
+      ''
+      '  16. Limitation of Liability.'
+      ''
+      '  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING'
+      'WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS'
+      'THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY'
+      'GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE'
+      'USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF'
+      'DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD'
+      'PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),'
+      'EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF'
+      'SUCH DAMAGES.'
+      ''
+      '  17. Interpretation of Sections 15 and 16.'
+      ''
+      '  If the disclaimer of warranty and limitation of liability provided'
+      'above cannot be given local legal effect according to their terms,'
+      'reviewing courts shall apply local law that most closely approximates'
+      'an absolute waiver of all civil liability in connection with the'
+      'Program, unless a warranty or assumption of liability accompanies a'
+      'copy of the Program in return for a fee.'
+      ''
+      '                     END OF TERMS AND CONDITIONS'
+      ''
+      '            How to Apply These Terms to Your New Programs'
+      ''
+      '  If you develop a new program, and you want it to be of the greatest'
+      'possible use to the public, the best way to achieve this is to make it'
+      'free software which everyone can redistribute and change under these terms.'
+      ''
+      '  To do so, attach the following notices to the program.  It is safest'
+      'to attach them to the start of each source file to most effectively'
+      'state the exclusion of warranty; and each file should have at least'
+      'the "copyright" line and a pointer to where the full notice is found.'
+      ''
+      '    <one line to give the program''s name and a brief idea of what it does.>'
+      '    Copyright (C) <year>  <name of author>'
+      ''
+      '    This program is free software: you can redistribute it and/or modify'
+      '    it under the terms of the GNU General Public License as published by'
+      '    the Free Software Foundation, either version 3 of the License, or'
+      '    (at your option) any later version.'
+      ''
+      '    This program is distributed in the hope that it will be useful,'
+      '    but WITHOUT ANY WARRANTY; without even the implied warranty of'
+      '    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the'
+      '    GNU General Public License for more details.'
+      ''
+      '    You should have received a copy of the GNU General Public License'
+      '    along with this program.  If not, see <https://www.gnu.org/licenses/>.'
+      ''
+      'Also add information on how to contact you by electronic and paper mail.'
+      ''
+      '  If the program does terminal interaction, make it output a short'
+      'notice like this when it starts in an interactive mode:'
+      ''
+      '    <program>  Copyright (C) <year>  <name of author>'
+      '    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w''.'
+      '    This is free software, and you are welcome to redistribute it'
+      '    under certain conditions; type `show c'' for details.'
+      ''
+      'The hypothetical commands `show w'' and `show c'' should show the appropriate'
+      'parts of the General Public License.  Of course, your program''s commands'
+      'might be different; for a GUI interface, you would use an "about box".'
+      ''
+      '  You should also get your employer (if you work as a programmer) or school,'
+      'if any, to sign a "copyright disclaimer" for the program, if necessary.'
+      'For more information on this, and how to apply and follow the GNU GPL, see'
+      '<https://www.gnu.org/licenses/>.'
+      ''
+      '  The GNU General Public License does not permit incorporating your program'
+      'into proprietary programs.  If your program is a subroutine library, you'
+      'may consider it more useful to permit linking proprietary applications with'
+      'the library.  If this is what you want to do, use the GNU Lesser General'
+      'Public License instead of this License.  But first, please read'
+      '<https://www.gnu.org/licenses/why-not-lgpl.html>.'
+      ''
+      ''
+    )
+    OnChange = Memo1Change
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    AnchorSideTop.Control = Image1
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 536
+    Height = 55
+    Top = 28
+    Width = 75
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Right = 5
+    BevelOuter = bvNone
+    ClientHeight = 55
+    ClientWidth = 75
+    TabOrder = 1
+    object Button2: TButton
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = Button1
+      AnchorSideTop.Side = asrBottom
+      Left = 0
+      Height = 25
+      Top = 30
+      Width = 75
+      BorderSpacing.Top = 5
+      Caption = '获取更新'
+      OnClick = Button2Click
+      TabOrder = 0
+    end
+    object Button1: TButton
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = Panel1
+      AnchorSideRight.Control = Memo1
+      AnchorSideRight.Side = asrBottom
+      Left = 0
+      Height = 25
+      Top = 0
+      Width = 75
+      BorderSpacing.Right = 5
+      Caption = '确认'
+      OnClick = Button1Click
+      TabOrder = 1
+    end
+  end
+  object Panel2: TPanel
+    AnchorSideTop.Control = Image1
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Panel1
+    Left = 392
+    Height = 89
+    Top = 11
+    Width = 129
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.Right = 15
+    BevelOuter = bvNone
+    ClientHeight = 89
+    ClientWidth = 129
+    TabOrder = 2
+    object Image2: TImage
+      AnchorSideLeft.Control = Panel2
+      AnchorSideLeft.Side = asrCenter
+      AnchorSideTop.Control = Panel2
+      AnchorSideRight.Control = Button1
+      Cursor = crHandPoint
+      Left = 1
+      Height = 51
+      Top = 0
+      Width = 127
+      Anchors = [akTop, akLeft, akBottom]
+      AutoSize = True
+      BorderSpacing.Right = 15
+      Constraints.MaxHeight = 51
+      Constraints.MaxWidth = 127
+      Constraints.MinHeight = 51
+      Constraints.MinWidth = 127
+      OnClick = Image2Click
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B477261706869638F0D000089504E47
+        0D0A1A0A0000000D494844520000007F000000330806000000BE27D704000000
+        097048597300000B1300000B1301009A9C180000000774494D4507D7061D0F25
+        2FA6A2565600000006624B4744000000000000F943BB7F00000D1C4944415478
+        DAED5D6B985655153E251515A5A5E5858A944A8DB4C2E496652991560416F488
+        A4214991974A816E8EE3F4408269A8694103422A0D0299C27017196E226388C0
+        8020606062A0C00032C3C07099D63BBC8767CDE25CF6F9BEF3CDC0383FD6F30D
+        E79CBDCFDEFBDD7BDDD7C1ABA9A9F19AE8C4A7399E77EA339E77A5D0AF858A84
+        56091D10AA11DA2FF7FF2DBF0FCEF2BC8FFB6D9A16EE04A6A59EF72E01F42AA1
+        C90A68D02EA145428542F7CFF5BCD1041FCF5408F54B04BE34FE8AEABC31D206
+        9C901365BC7348EAEF3DF2F733F23B50E89C100C3F2BF41C36816C888B9CC197
+        06BF69E4E0DF23B4ED381EDF1E8EAF5A81FE86D0C8D99E779E2B8E259E7786B4
+        DD2DEDA626017F4A63065F16A3A3FCBE729C8D6B1FD9F752A1ADBC562D344240
+        EC98857E0011F06C12F0B73762E0FF2712F01DF2FBE271309EC3C2924BE477AC
+        D034238AC60BB5CE565700F042CFBBB28AF31AF3A997C51EC94599DFC0639925
+        1BF036F97DC15C7F53A86B5A8AA2F4B51CEF707A5816A76F2367F93F6A60D1F6
+        3CC620BF13823604E4748A26E1C59C73BE6B8387CD4929C10E95417500577025
+        69F77969F753E9639299E0F224FD687ADAF3BE287DDE6480DBA69F917F5F16B5
+        F8D2C705DCE4E3EA19F49765ECBDE5F776A14A736FBF8CE75688A334CD438A8E
+        7D62EF7FD4B5C15A35A8E9133DEFA4140631596DA687529A98CFB68B0DE7FA7E
+        040055B2419AB1FD5FEB09F4D7654C3F11E0BBD3C4B4F7D7E0A0A4ED1790797E
+        8A66DEDF9DEC7C7A8E348B3CFDE87DD995726DA25C7B2A8EF062D3EF3F559FBD
+        0D58835CFA94137BBE017F0EFBBCDD5CBF37028852F5DC901C830E4F5BBED085
+        54E6829E5936D3F33E1C8647B1E7BD4F4EEDD958CF3A58C4D062CF7B2FFA16DA
+        EBAF9BCB69EAAA06B6DE80D4C671D2073068D3EF6675BFB5B9B7DE452B96499C
+        ECB729F0BC77C27EE5BDCB02B4DBB07E46A80DD92387C0AFC06996DFFEE03649
+        8017A04F917BD70A3D09F0D4F395258E36BECCED117BD05CC01FA65EF698E9F0
+        C78E135F6626F331ADC9EA7B0B3CEF238E7DAE327D7E8ED70FCADF2D8C0BB42A
+        42D31FA4E6DA2A07A01F9477FC0163A2BBB5C61578B9D6926DAA23C6DFC64161
+        BF91CFDFA7AFBB80BF40BDE846D3E968C7051861FAECA9EE4D89E03451E6D968
+        D3AE9F7FC2CCF576317DF531CFBF9122F0AFC838DBD3AB16C57D760917FB8439
+        E9C3CC290F74498BFEF5EE18FC7A61F34049F7751B27F0D1B13E35D0AC4DC7AB
+        9398526AD3FC4981F85BC34DEE725CD81BCC58C6689B5DBDEBE73163FB8E79FF
+        D494802F2688ED8C880BDAC8D711F4E6E04472ADDCF11D5D62804784EF30B80A
+        38AABD1FA71D7630F2E5E8CE81BC65C7B183B47249AE2D568BFF75035689E3C9
+        6F63FA7C2968A3D1B489EAA7BD79FECE2C413F247DDE4165B80F5DB451CF3F01
+        EB8922F4B504EF7934E2D09E046EEB6F425110DF1FF45C9C92709B7AD93CB348
+        5D1238511E8179E19372591ED403E3A02B1CFADC0D05CFB0C9C304F35C33CE8D
+        31633BC73C7F6516C0EF95F77F1B8744FA7DC0E1F94A79FE078CBD2779CF3C70
+        8920CCB09E3EF7827F26CA2C8F93F74FA8170E4DF984D43A77749F102B8EA7FE
+        69B349AFE0BD1DDA2942591BD9D774CFFBA0E176A7653897B784BEBAD0F33E24
+        BF731DDB80BD1F4AE88D7CD18E595B3CB2368FEBCD68396112F0B7AA05FFAE59
+        F09929803F22442B8DA3C1669C05BC3ECD8CB17B5C5FB07F03E6BD31E13C76C0
+        6D0A8D9EF1F25C7A04636D7B09F19E25CF5D0DE5971BA64722F0617BEB17C31D
+        689C3B3B5308A85C67DEF99863BB6F9976B3782FCF6CA6BB1DF4911601739F90
+        601E5BE11E96D3F81E2453E430F85412E5FC8970EC408F589214FC6BB5C962D8
+        F3F92905543E63DEB9C1B1DDA96623EEE2F5CE21EE5E67B6CF76031D01F9AF9C
+        B24F43C66B77750E6814FC1519BABC1FC5414D043E4C2635C9710E513E38331E
+        8F22C40534ABCCD0B9B3CEA626F95AB606928054C6F507191D63E584D1FA5ADB
+        5C365F0E0342876A833BD9C53BE015DC96F4E497A941DC6CEE150629220E2E46
+        2D83EBC86700278BF93507BAC06CC43BD8DF4A33C6B68E66E869418A534CF2CA
+        2A3FCC9AC360D0266B062725B8D47100606D39834F1BFE903AF917456C8CA3D1
+        3E0B9495514606E76515A53AC2EE7BAA71169A8D7693CB22D7D165EACEF11F21
+        6DB0295AE538CF61D422CFFB400AB1FB1EC4AF9B33F8CA74AA3517B4730727D4
+        D53C813C0C731507C867C8D9FB1D0911B11DE67DD79B8D36CE11FCB343D6A077
+        101BF6BD6A8C4FEC4A3B9D0C7E0623825A50731F4BB1590A97B85CFF8203CBC7
+        F31541164D28F830A5D4A0169845E9EC3899ED6612CD94AFBA8E7C66F0656F36
+        0B17E045DCE0A8B4B58F08651F30CFE7A9CD352365E09FF345098340F0C9FF2B
+        625D46C40473FC1C866189EC7C6DB2805587C8D8B8C94C35E07F49DD2F8BB897
+        09956BE74E02E5F118FF855987D97502507C47DAEC1E5E4FE81EF27B0D15B42A
+        8748E1A5116E79783CB740290D3BF581E0F384562810BB07B0129749E59976B7
+        A87B8511F73259BC1999440649FD22C0EFAF34FB9373C4EEE732ADAD2AC17C07
+        C5B0FB5141790DB1E043B933ECF40CA364953B9E7C2BD38BD4E0FB3A2A57AE2C
+        333FC3C8E0319CCD8C6B1AB5E50BD5B5071B38E174700CBBBF86718E31713A41
+        D084F529DC98610AF721EB3CD12E539B7E2503FE4F960BD22593C82037CE5321
+        32BFB3E50CD44D1AAAAAA70AC0C600FF4D267E2C0DF25CBA9C7C1D182832005E
+        EF38D0B2801221FFDE4E2D9FE1ABCED611A2D3B9ACD872A035216624AA6456EB
+        E86142719226AD415E400CAB6FC779AF0B8ADDBB9E7C1D53BE25CEB9134256A6
+        5FA54EDA4CB3D9BA65B930659938771455DB0C1786592112BE67FA9E58DFF579
+        90EF71AE5D72E4ED3015C34CD758F051BB6D58E2C50ECE9D2039DAD7B0D03FAA
+        FB0511398299C8FBBF65E2DC09F3479073AC43218559E0E64994B2142C0070E0
+        960E8E1C6402BF0E253469BAB7EDE8EA38D76706B9E2CDF5A6815C32E0CF4BA3
+        DA26039FB7E6705DAD861FA0B0B6AC27E057BBBA75652D2F67C6F276C42392AE
+        815D10ABC98E85F69F4991066C4D780AA5FD429D6E8DEB49832F49BC8809C09F
+        AD36D05DEAFAABF07304CCE7933906FD2D19C700D7E89D3CFB436644ADCF740D
+        EC822C0B4B9B62D58E13517B0FCAEF3B689EDD90C2A2ADCD90766BEF9A0E55CB
+        BFBF11A20496E7007468E7639080E102180EA29F004BAF60C6DCB98E0F99E0D4
+        BC0DE900E70F33B73ACC2BE6173EA444307D07C369E40A163D9773FDBCC8B03C
+        BEC4E0537EF8037B0D6C4E930ECA64219F1F4099114C3FF9FB5731CFF747C40D
+        79848869D743A5EE154CC85812B3F8A559BC075FC478B8D6359BB000931F8F78
+        959CE2E6346AF774E7F96A901398C6B544D152A65CAF55098BCF063822168644
+        FD8A591103056F36C5CC2615265DAC9E9D8CB428D6E40DE0C457A93A8132B2E0
+        4A05C6667AE45E56C9914BF93E5F4B2F0D73D290954214DCE3901A35DE356D9D
+        D147F8EB7B45F9D963DE771FD7748B88A64BD22ADC0C4CC8E449EBE417446261
+        E18C41A48B36F093E006ACF56ECB81CDC735C4F1590D5A614D32C4F7598EBC82
+        5FC1002893D037CBB73BB2BAE45C9F3BA00D4AB190468E081C360C3D6D131064
+        A2E2335E4EE599F065F31E36C0703868C056F9191238413AE1F4724E417A4D68
+        EC3B20451A5CA90F43C753982E3D9D07270F1684AEC2C984A4EF2FD3ECC4F826
+        BA3A6F12816F8A1C61E275407E1DEBEFF1F754E6D46F6611422B9A8577F23A06
+        D816D52FB0E319F35F14100BFF736D08F588F284B0F11E064A566223901B54B0
+        80218FED5A52E414B31EEF67547AEE66D87513D3C47E8F8F46D18240164C0F25
+        2E8651741594346B7649942F2049E56BAE88A77D38D70C5FE5E8998BF76847C1
+        D18F00B14C6BB976F3AABCB61798DB5E20ED7E81B831583D538690423D90E95A
+        6FEA142FFF8B10BE69053B1A65DA48CBE2F5C5E40CFBA8754F4782A45FC841CD
+        F61472896E1C031240B6E2D48323810BF044C2043CCBF72140C63239A3809C6B
+        52049B6ED590C023F75F89AED44FFB31E0ABD0652D0856F347BD9B3A45DB298F
+        7FC7E4499CE09DAC33BB1520DB9305B723B80138033F4A703A59E42A5498B0A6
+        AC35655B39391164F634A43391A56EF075137CDD83C51178663237C250B836F9
+        158E4DDA87C07722507303385A547E1EBE37D810A0C345ABC451CE4E7B10F83A
+        5F7E055386ACAB71B93153869A64872D74E31687287C2BD966985F57E767E3F2
+        A3087E95CB667CA9C32F6722FB5BC28C16B42D47C58ED251F673BC43A85815B1
+        3A76A436E53047E81D7151B9B8C859DA445DA590870D73199E343F3F2BF05308
+        A936A68F3395D6C7C2532F1AC20D0ECBA12849502615F0B9F39A80AF7BFA2FCD
+        D582C39281E2AB14ECB9363BBADEC08FF958D1DBEDD4FBBF2870EC94D6224387
+        A125348BA71C1F5A9C61835CF50E3E656A13F8E683C6738EE82D1957CBC0FA01
+        E0427FA167AE86F58DC3EDC7A91A12FC254DA0876E801A2ABAF9623A9EE9A2B1
+        D32A9AAD3ECA504D93B39FFD28558383CFB2E85F36515D9A73C467B1D1580CF0
+        573CE4178F2056015F05BD957BD4B370868D422650582DFD71017ED37F5A10EB
+        748187B1174DC79742AA6CE6F33F3418606B098F67FA3F87EE5D07D1284E0B00
+        00000049454E44AE426082
+      }
+    end
+    object Image3: TImage
+      AnchorSideLeft.Control = Image2
+      AnchorSideTop.Control = Image2
+      AnchorSideTop.Side = asrBottom
+      Cursor = crHandPoint
+      Left = 1
+      Height = 32
+      Top = 56
+      Width = 32
+      AutoSize = True
+      BorderSpacing.Top = 5
+      OnClick = Image3Click
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963B206000089504E47
+        0D0A1A0A0000000D4948445200000020000000200806000000737A7AF4000000
+        1974455874536F6674776172650041646F626520496D616765526561647971C9
+        653C0000032469545874584D4C3A636F6D2E61646F62652E786D700000000000
+        3C3F787061636B657420626567696E3D22EFBBBF222069643D2257354D304D70
+        43656869487A7265537A4E54637A6B633964223F3E203C783A786D706D657461
+        20786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A786D7074
+        6B3D2241646F626520584D5020436F726520352E332D633031312036362E3134
+        353636312C20323031322F30322F30362D31343A35363A323720202020202020
+        20223E203C7264663A52444620786D6C6E733A7264663D22687474703A2F2F77
+        77772E77332E6F72672F313939392F30322F32322D7264662D73796E7461782D
+        6E7323223E203C7264663A4465736372697074696F6E207264663A61626F7574
+        3D222220786D6C6E733A786D703D22687474703A2F2F6E732E61646F62652E63
+        6F6D2F7861702F312E302F2220786D6C6E733A786D704D4D3D22687474703A2F
+        2F6E732E61646F62652E636F6D2F7861702F312E302F6D6D2F2220786D6C6E73
+        3A73745265663D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F
+        312E302F73547970652F5265736F75726365526566232220786D703A43726561
+        746F72546F6F6C3D2241646F62652050686F746F73686F702043533620284D61
+        63696E746F7368292220786D704D4D3A496E7374616E636549443D22786D702E
+        6969643A45353137384132413939413031314532394131354243313034364138
+        393034442220786D704D4D3A446F63756D656E7449443D22786D702E6469643A
+        4535313738413242393941303131453239413135424331303436413839303444
+        223E203C786D704D4D3A4465726976656446726F6D2073745265663A696E7374
+        616E636549443D22786D702E6969643A45353137384132383939413031314532
+        39413135424331303436413839303444222073745265663A646F63756D656E74
+        49443D22786D702E6469643A4535313738413239393941303131453239413135
+        424331303436413839303444222F3E203C2F7264663A4465736372697074696F
+        6E3E203C2F7264663A5244463E203C2F783A786D706D6574613E203C3F787061
+        636B657420656E643D2272223F3E9B8406B9000003244944415478DAC4976D68
+        8D6118C7CF794C33DB30D9412B8E885223663EF1C14948DAA9CD07F29179F9A0
+        D428F101A94D8D8514295F946FE635A50C85A5302BFB30C496B16C266F7B695E
+        E6F85D759D3C7BDCF7F19CE359EEFA779D73BFFCAFFF7D3DF7CB7587433ECBE4
+        C2C8244C1C2C03F3C00C90A7CD7DA01D3C01B7C1E5EE9E77EFFDF0867D385E80
+        D90DCA41964FBD3FC005700821CD1909C0F178CC61B0D18F504B498033602742
+        3EFB16A0B3AED7300751E4F35498A231CAE03C86B90EA684822B05607D5E6EEE
+        83FE81FE766B04705E82B905C68546A67C013122D1F44704702E2A6FCA4FD780
+        5670171481EC0C9C5DD3DF856A85630591384B2406A5C2710D3802A21E926AD4
+        5660236013E8766DBB167047D1A27521ED237D233AB6DAC319555FBF3F01B35F
+        847968984509248F3D3B632A784EFD4FCFE793C9CC066FDD2B9EFA8598260377
+        29FD1E25F7F51E4B18872D5225366E2715F4F46F1CAE223ECB1D14CA6A2FB374
+        9A1BC0C2B37194896F478F5793CA37E06A000284E3B52532711110B30CDC4758
+        3FFCAB77E5D86F698E89806243C3909E8441957AE5F49662C7B0F5A474DACEEE
+        0CA3205C9D86A6A808C831347C1B8153F0BBA12EC7B15D8623202062AA1401BD
+        86FA7CB6482428CFCA956F68EA15016D9671AB029CBD8DABCDB11C9352AA509E
+        15C0EC85A3CAD2DC24021A2C8D92F7D50630FB5AE5329586300AE5DB7481B196
+        4EE7C176B652579A33974BEB38586BE93220494FF2363C89D9EA522CF7F841B0
+        D4B5852E811B40D2AA66040D19425D0AE6CB9D0FD680D129349E82635B52C034
+        CC33304613C95DE084DEF58B3D032F6A7E97F008086B5BDC4780241999034787
+        A3275507A6C6952348362C89E93AC34552E775AE1C5257E7F30BD5A8CF611991
+        642E8DAEFF07E8D4AE0B48329CBD6025B89F82B8D587F3467796E44D4A2537B8
+        07666AD50E441C4B63E14DC07C4CD1E52558E25ED06103C974DD9AB3B44A045D
+        013D9AAA1F85603003012FC072C6BEF2F3309988396739C10A20F994A6007967
+        6C30E5174E8A246235A8D499675AE481BA59B86CC98D9FC7A9BC80B728243245
+        907DB5F4CDD67B5F9C9DD6BDDE97F2719A482442FFB3FC126000E6380C004207
+        69040000000049454E44AE426082
+      }
+    end
+    object Image4: TImage
+      AnchorSideTop.Control = Image3
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Control = Image2
+      AnchorSideRight.Side = asrBottom
+      Cursor = crHandPoint
+      Left = 31
+      Height = 32
+      Top = 56
+      Width = 97
+      Anchors = [akTop]
+      Center = True
+      OnClick = Image4Click
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B47726170686963010A000089504E47
+        0D0A1A0A0000000D494844520000004E000000200806000000BC544E37000009
+        C8494441546881ED595BAC244519FEBEBFAAA7E772CED9CB612F40B80749DC95
+        45DD0872091A14485412880478D16020117DD128244A34C283100C6A44137D32
+        28C883C168C24D20A2780FB7048368C405022AEBB297B37366A6A7BBEAFF7DE8
+        EE736666E7EC1E362448B25FD273A9AEFFF6F55F557F55D3CC70046F1CF2563B
+        F076C511E20E1347883B4CF8698DAA8A29731F0190E53700980186F25A354842
+        E4EDFFBCB88AC5A18E520FD167F43EAB6BAA4C8C71253D6EE4B74D9127C647C9
+        B43EAB8160390150E9984AC44A0F7A8C383303493CF5D453D8B97327488AAA2A
+        003871F3CEB99309CC5746BB6ABA33467D494D0B92A33ACD00C8721B48C2CC70
+        ECB1C762DBB66D8711EBFF17C688535588082EBAE8223CFCF0C375169D21E097
+        12F11788C8FCA8B09905337B79A8C58F00DC8CE5CC3B05C066007F40F924597D
+        BB75EBD6F1C20B2F44C5ED52EA91F433ADF6ADA46C248910E3F3BD41EF168C64
+        6FE2FC3BDAADF68D661685F4593EBC27CB870FE2C08C5F0902409B8DF4926623
+        FDB89A0592AE97F56F0A21EC18D5232250556CDFBE1DD75F7FFD1237A3C12F5D
+        314698192EBDF45271CE616E66F6F2A3E73765471FB5C936CF6FB44DF31B8A4D
+        EB37E49BE637169BE63784CDF31BF3A38FDA64F36BD63FE69C83730E9D56FBB2
+        CDF31BFB55FB23DEFB96738ECE391E626E6B79C84283DE52494CC0674782AD87
+        F08753492CA1B3A62406E0A6AA7DEA5C3D0575BF6F3425B1A4B205E0FCAADD4D
+        0A5C70C10530338410C6B89A6650628C16637C57A7D9FE4908C103280024247D
+        C576D5D51C4864C3ECBE7ADE4A93C69755B565669977EE438E72FE30E40F0160
+        2B6D5DE7BD3BDE89836AFC777F98DD511B2569EB66D7EC114A9B248A10F6ED5B
+        5C18732C4D1AC55C6736A869EE288DC56CD0EF67FD5572B68C76ABDD9B495B21
+        9A1542260BBD6E9117F9581FE71C628C989B9B9BAA63A52765046E21B8441A80
+        6230CC7E9087E25155DD4D2211BA631A49724E1EF247510DC7A8FA72E2F95E00
+        4D3383AAEEAC75B6D2E6E71BDE9F0A030A0DAF84DEE2F796EC9188313AA3F9FA
+        7708613C180A638C5E4D15341F4390AA8F6079D1985CE9EBA15EFF460C41A28F
+        3E9A99913E84C01082ABF820003333AD126855C411807AE74F4CE82F545303E0
+        48140BBDEE25C33C7F68BC7B812CCFEE1E75B0DB5FFC34CC3227EE84C130FB7E
+        11C33328874034B3D7D5EC24186066BB70F0798995DC68E02B8DF57C8576609C
+        C895ECC591AB12B2DADE549949E204404CBC3F8F6402604832CDF2E1DD15698D
+        32022E7D5446B43210093606C3EC56904D53DD4F30315841B245B253DB24B9B6
+        91246702648CE12535DB83F112218C06020066B6383508E7CF40F98061660B21
+        C6172A5DE69D3B8DE44C298F2CC4F0DC84B891ECA449E3E2C427EF27D18C515F
+        2C34FC42A3FE6725F2A60E55EFDCD6D1FF7991DF5B2B30201CACE69D69756E6F
+        A6E915F56AFDFAC29E8D9DB4F59966A3F92992C7D4ED423979EDCC9A3F09896E
+        BFF7B55ED6BFA99A1A000024D7377CF2418CD49189F7EFAE6F0380C10200AC9D
+        997B4C286B49220FF9EFF77617CEADF5CCB667EF6DF8648B99216A7C61F7FEBD
+        A7D6EEB32A9D665B9D7B4464C3926D1010DCBC73F7AE2BCCECB169E44D254EC4
+        1DBB74DF80A871472568CD467AB9F7FE7D30C45A21099717C5AF87457E3F08B5
+        0A283346139F5CEC9C3B5E55C71837B33A063FD1AE4E64CBDAD935BF9AF4CDCC
+        409013CDD19657ACC9EC88B66C69DA8425A3A4953DADF0F41B1CE41E27721A80
+        FD582EA90E7478E446A7566AB0A0BA34442C6DA457351BE9A565005527128B18
+        AC1916F9FD18AFCA8972957E3A485C27E47100DAD5BDA1AAEE30D2ABD9BF261D
+        AB829896DA93A41DAAFD60F70C00420CCFE645F120CA1AEF5A9247A969E1299B
+        D246FA310077A1E46A69B53A54FD5317AFCB93B2592CBF0CE5B04500E057987F
+        94607B7F7FF1B30464EDECDA3F27DE6F870141C33FF6EEDFB7AD32A2249B060B
+        3C68FC6F3A4812DDFEE2954508CF034088E189B9CEECCF50A6B079E7CF4249DC
+        18A6ADAA00AC5BFD57825E84EBA3E29F0018627C222F8AB500DADEB9B347F41C
+        B4BAB52913ECB4B62A1A09313EB3BFD7BD0ACB191C1ADE9F35D39EB9534DF5E0
+        09F686E1AB0B79287EABAA3DEF7D0700843C7AD9DD7181319F0120AABE5C750C
+        24BC777E5B11C293007C2FEBDFD6CBFAB779E74F5B37BBE66F6FC0B969912E9D
+        B44CDE30B35E88E1EFA36D22DC30D9EF4D826179181600FA589EAEA6AF035314
+        20942411803300CD46F3EAEA5E01A081B2209E390CE726FF13E375DAA46F5239
+        9E001082AD55DAA9650FD842AD00372293A08CB1C6609AC024711100F250FC26
+        6ADC4BD29B594CBC3F7BB63D731BC916CA62B300D05BA5530773B6AEFF6A1227
+        A153AE4321A9FAD505ED2165ACAC2115800A655E2873661600989ABD56751BF3
+        6F5A1ABAA8715F807E57C8AFA0ACF8A59536AF6F24C9E521C6BFC02C3871278C
+        DA5E65504300663075E24E69375B9F0B313EAD1A5F8DAAAF4E3AB70AD47372C1
+        EA34CB3B7F7A2B6D7E22C6B823F1C9B94EE424338B24A7659FC14CDBCDF657B3
+        7CF853980DDBCDD60D65210723C050EE7C0EC034E2D4891311F97AD0F801EFFC
+        796A6A06CBBDF327263E39B132098345005148EF9CEB88084444452454A54410
+        917AFB02357DD2899CA366058074AE33FB2D21D1CBFADFECF67B5F70E2483254
+        878771F234A5D21F6008421127CE95FAF157716EB399E5003A6B66E6EE5C62A6
+        AC688C6430B338EA63552124ED66EB9A76B375CD485CC139E78D1C1421FCB252
+        3556034E23CE0683015435DBB97BD7471CF89D34493F49B281E582150040D081
+        70A6BABB1F868F0340B7DB9D2D1AA9AF1C4E8A50D4D1736171FFEDC32CBBCC89
+        3BAED6E548F4F28157008B8B8B4791F4245114615D7586BA84C1306B38885753
+        EF28E80EFB1D00D8BDB0F7A676D23C87643A5AFA9184AAEE21D911913486B85E
+        55D1ED2F7610D5AB998F31BE282227115C7AC02C1301B916377417BBAFA1DA6B
+        1F8A386CD9B2C576EDDA4511E9C618AF6E24C9B7D3A4F151E7FC7B84DC0C2005
+        D08BAA3B8A503C3E2CF207EA53903469DCE1BDFF63E9850DFBC3ECBF553004F0
+        8A1377562B6D5EE79DDF4EB26DA6AF0F86D97DC322473B6D7D91E41A1088515F
+        CAF2ACCA81322227EEB9669ADE68662AA41B16C523452800E0F1C4FBB35A69EB
+        5A27B20560DB4C771621FC2ECB873F4EBC3FD33B7F7AD4F8EA6098A1E1939F27
+        49B20F06CDF2E10FBD73EF4C1BE995E52E815E555FCE6371D7201B3CB075EB56
+        011039B15939D43B8783BE3B98C06A4E610FD81DBC4958ED09F09BA6772A7153
+        DA8480D8F822C0AA1D56A6712DE4CABD64F9D746B629B51CCB3267548F01502E
+        8D005685FB017B4B1274F5223C722A530759076A956FAC7C13821CD12904A5F4
+        CFEA3D3747652B9DB1347AE09AB59AB75C4730056FFF179C6F118E1077983842
+        DC61E208718789FF01B8B7014B37905BFE0000000049454E44AE426082
+      }
+    end
+  end
+  object Label3: TLabel
+    AnchorSideLeft.Control = Label1
+    AnchorSideTop.Control = Label2
+    AnchorSideTop.Side = asrBottom
+    Left = 111
+    Height = 17
+    Top = 85
+    Width = 247
+    BorderSpacing.Top = 5
+    Caption = '版权所有 shine_5402(shine_5402@126.com)'
+    ParentColor = False
+    OnClick = Label2Click
+  end
+end

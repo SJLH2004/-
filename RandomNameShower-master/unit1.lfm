@@ -1,0 +1,103 @@
+object MainForm: TMainForm
+  Left = 498
+  Height = 327
+  Top = 185
+  Width = 373
+  Caption = '随机点名器'
+  ClientHeight = 307
+  ClientWidth = 373
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.8.0.6'
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    Left = 186
+    Height = 1
+    Top = 153
+    Width = 1
+    ParentColor = False
+  end
+  object Button1: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 149
+    Height = 27
+    Top = 275
+    Width = 74
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Bottom = 5
+    Caption = '随机点名'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    left = 264
+    top = 16
+    object MenuItem1: TMenuItem
+      Caption = '设置'
+      object MenuItem3: TMenuItem
+        Caption = '字体'
+        OnClick = MenuItem3Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = '动画'
+        Checked = True
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = '-'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = '清屏'
+        OnClick = MenuItem8Click
+      end
+      object MenuItem9: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem7: TMenuItem
+        Caption = '选项'
+        OnClick = MenuItem7Click
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = '帮助'
+      object MenuItem4: TMenuItem
+        Caption = '关于'
+        OnClick = MenuItem4Click
+      end
+    end
+  end
+  object FontDialog1: TFontDialog
+    Font.CharSet = 4
+    Font.Name = '微软雅黑'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 160
+    top = 48
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 5
+    OnTimer = Timer1Timer
+    OnStartTimer = Timer1StartTimer
+    OnStopTimer = Timer1StopTimer
+    left = 40
+    top = 16
+  end
+end
